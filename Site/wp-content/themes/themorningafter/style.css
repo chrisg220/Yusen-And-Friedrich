@@ -390,17 +390,35 @@ p.note { border-top:1px solid #efe3ae; border-bottom:1px solid #efe3ae; backgrou
 
 /* Contact Form */
 #contact-page .screenReader { left: -9999px; position: absolute; top: -9999px; }
-#contact-page ol.forms{float:left;list-style:none;width:100%;margin:10px 0 0;}
+#contact-page ol.forms{float:left;list-style:none;/*width:100%;*/ width:500px; margin:10px 0 0;}
 #contact-page ol.forms li{clear:both;float:left;margin-bottom:18px;position:relative;width:100%}
-#contact-page ol.forms label{cursor:pointer;display:block;float:left;font-weight:700;padding-right:20px;width:100px;}
-#contact-page ol.forms input.txt{width:214px;}
+#contact-page ol.forms label{cursor:pointer;display:block;float:left;font-weight:700;padding-right:0px;width:80px;}
+#contact-page ol.forms input.txt{width:392px; padding:5px;}
 #contact-page ol.forms input#sendCopy{border:none;}
 #contact-page ol.forms textarea{height:300px;width:400px;}
 #contact-page ol.forms li .error{font-size:12px;display:block;margin-left:120px;color:red;}
 #contact-page ol.forms li.textarea .error{display:block; margin-left:120px}
 #contact-page ol.forms li.screenReader{margin-bottom:0;}
-#contact-page ol.forms li.buttons .submit{margin: 15px 0 0 120px; }
-#contact-page ol.forms li.inline input{width:auto;margin-left:120px;}
+#contact-page ol.forms li.buttons .submit{
+	margin: 15px 0 0 80px; 
+	padding: 5px 10px;
+	color: #fff;
+	font-size:16px;
+	border: solid 1px #b61d22;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	/*gradient background*/
+	background: #e08688;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2UwODY4OCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiNjFkMjIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, #e08688 0%, #b61d22 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e08688), color-stop(100%,#b61d22));
+	background: -webkit-linear-gradient(top, #e08688 0%,#b61d22 100%);
+	background: -o-linear-gradient(top, #e08688 0%,#b61d22 100%);
+	background: -ms-linear-gradient(top, #e08688 0%,#b61d22 100%);
+	background: linear-gradient(to bottom, #e08688 0%,#b61d22 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e08688', endColorstr='#b61d22',GradientType=0 );
+}
+#contact-page ol.forms li.inline input{width:auto;margin-left:80px;}
 #contact-page ol.forms li.inline label{display:inline;float:none;width:auto;}
 
 /* Blog Author Widget */

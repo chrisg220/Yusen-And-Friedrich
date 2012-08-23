@@ -145,29 +145,36 @@ jQuery(document).ready(function() {
                 
                         <ol class="forms">
                             <li><label for="contactName"><?php _e( 'Your Name', 'woothemes' ); ?></label>
-                                <input type="text" name="contactName" id="contactName" value="<?php if( isset( $_POST['contactName'] ) ) { echo $_POST['contactName']; } ?>" class="txt requiredField" />
+                                <input type="text" name="contactName" id="contactName" value="<?php if( isset( $_POST['contactName'] ) ) { echo $_POST['contactName']; } ?>" class="txt requiredField" placeholder="John Doe"/>
                                 <?php if($nameError != '') { ?>
                                     <span class="error"><?php echo $nameError; ?></span> 
                                 <?php } ?>
                             </li>
                             
                             <li><label for="email"><?php _e( 'Your Email', 'woothemes' ); ?></label>
-                                <input type="text" name="email" id="email" value="<?php if( isset( $_POST['email'] ) ) { echo $_POST['email']; } ?>" class="txt requiredField email" />
+                                <input type="text" name="email" id="email" value="<?php if( isset( $_POST['email'] ) ) { echo $_POST['email']; } ?>" class="txt requiredField email" placeholder="john@doe.com" />
                                 <?php if($emailError != '') { ?>
                                     <span class="error"><?php echo $emailError;?></span>
                                 <?php } ?>
                             </li>
                             
                             <li class="textarea"><label for="commentsText"><?php _e('Message', 'woothemes'); ?></label>
-                                <textarea name="comments" id="commentsText" rows="20" cols="30" class="requiredField"><?php if ( isset($_POST['comments'] ) ) { if ( function_exists( 'stripslashes' ) ) { echo stripslashes( $_POST['comments'] ); } else { echo $_POST['comments']; } } ?></textarea>
+                                <textarea name="comments" id="commentsText" rows="20" cols="30" class="requiredField" placeholder="Write a message..."><?php if ( isset($_POST['comments'] ) ) { if ( function_exists( 'stripslashes' ) ) { echo stripslashes( $_POST['comments'] ); } else { echo $_POST['comments']; } } ?></textarea>
                                 <?php if( $commentError != '' ) { ?>
                                     <span class="error"><?php echo $commentError; ?></span> 
                                 <?php } ?>
                             </li>
                             <li class="inline"><input type="checkbox" name="sendCopy" id="sendCopy" value="true"<?php if ( isset( $_POST['sendCopy'] ) && $_POST['sendCopy'] == true ) { echo ' checked="checked"'; } ?> /><label for="sendCopy"><?php _e( 'Send a copy of this email to yourself', 'woothemes' ); ?></label></li>
                             <li class="screenReader"><label for="checking" class="screenReader"><?php _e( 'If you want to submit this form, do not enter anything in this field', 'woothemes' ); ?></label><input type="text" name="checking" id="checking" class="screenReader" value="<?php if( isset( $_POST['checking'] ) ) { echo $_POST['checking']; } ?>" /></li>
-                            <li class="buttons"><input type="hidden" name="submitted" id="submitted" value="true" /><input class="submit button" type="submit" value="<?php _e( 'Submit', 'woothemes' ); ?>" /></li>
+                            <li class="buttons"><input type="hidden" name="submitted" id="submitted" value="true" /><input class="submit button" type="submit" value="<?php _e( 'Send Message', 'woothemes' ); ?>" /></li>
                         </ol>
+                        <div class="content-right" style="width:215px; height:400px; float:right; margin: 10px 0 0 0;">
+                        <p><span class="category">Phone: </span>(206) 545-2123<br/>
+                        <span class="category">Fax: </span>(206) 545-6828<br/>
+                        <span class="category">Email: </span>firm@yusenandfriedrich.com<br/><br/>
+                        215 NE 40th Street, Suite C-3<br/>
+                        Seattle, WA 98115</p>
+                        </div>
                     </form>
                 
                     <?php } ?>
