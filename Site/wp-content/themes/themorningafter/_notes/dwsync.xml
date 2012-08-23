@@ -17,8 +17,8 @@
 <file name="screenshot.png" server="173.254.28.21//" local="129737383215672351" remote="129752250000000000" />
 <file name="search.php" server="173.254.28.21//" local="129737383219412565" remote="129752250000000000" />
 <file name="sidebar.php" server="173.254.28.21//" local="129737383214702296" remote="129752250000000000" />
-<file name="single.php" server="173.254.28.21//" local="129737383221312674" remote="129752250000000000" />
-<file name="style.css" server="173.254.28.21//" local="129902205337592260" remote="129902241000000000" />
+<file name="single.php" server="173.254.28.21//" local="129902253931961699" remote="129902289600000000" />
+<file name="style.css" server="173.254.28.21//" local="129902277208463038" remote="129902313000000000" />
 <file name="template-archives.php" server="173.254.28.21//" local="129737383219022543" remote="129752250000000000" />
 <file name="template-contact.php" server="173.254.28.21//" local="129902206661397977" remote="129902242800000000" />
 <file name="template-fullwidth.php" server="173.254.28.21//" local="129737383217042430" remote="129752250000000000" />
@@ -27,4 +27,5 @@
 <file name="template-sitemap.php" server="173.254.28.21//" local="129737383215292330" remote="129752250000000000" />
 <file name="top-banner.php" server="173.254.28.21//" local="129901298683558692" remote="129901335000000000" />
 <file name="style_yusenAndFriedrich.css" server="173.254.28.21//" local="129902232921039943" remote="129902268600000000" />
+<file name="template-blog.php" server="173.254.28.21//" local="129902273665300381" remote="129902309400000000" />
 </dwsync>
