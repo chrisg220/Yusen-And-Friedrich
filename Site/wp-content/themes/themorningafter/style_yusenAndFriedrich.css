@@ -173,14 +173,30 @@ div.content-block {
 
 /* Attorneys Page
 -------------------------------------------------------------- */
-div.row{height:200px;width:750px;outline:1px dashed #333333;}
-	div.attorney{width:360px; outline: 1px solid #cdcdcd; line-height:18px;padding:5px;}
+div.row{height:180px;width:750px;}
+	div.attorney{
+		width:340px; 
+		outline: 1px solid #cdcdcd; 
+		line-height:18px;
+		padding:5px;
+		/*background*/
+		background: #ffffff;
+		background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlYWVhZWEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+		background: -moz-linear-gradient(top,  #ffffff 0%, #eaeaea 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#eaeaea));
+		background: -webkit-linear-gradient(top,  #ffffff 0%,#eaeaea 100%);
+		background: -o-linear-gradient(top,  #ffffff 0%,#eaeaea 100%);
+		background: -ms-linear-gradient(top,  #ffffff 0%,#eaeaea 100%);
+		background: linear-gradient(to bottom,  #ffffff 0%,#eaeaea 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eaeaea',GradientType=0 );
+
+	}
 		
 		div.attorney.left{float:left;}
 		div.attorney.right{float:right;}
 			div.row a{color:inherit; text-decoration:none;}
-				div.attorney span.name{color: #B61D22;font-size:18px; font-weight:bold; display:block;margin-top:10px;}
-				div.attorney img{width:100px; padding:3px; float:left; border:1px solid #cdcdcd;margin-right:0 15px 0 0;}
+				div.attorney span.name{color: #B61D22;font-size:18px; font-weight:bold; display:block;margin:10px 0; text-decoration:underline;}
+				div.attorney img{background:#fff; width:100px; padding:3px; float:left; border:1px solid #cdcdcd;margin:0 15px 0 0;}
 				div.attorney span{line-height:8px; margin:0;}
 				
 /* Attorneys Page-Single
