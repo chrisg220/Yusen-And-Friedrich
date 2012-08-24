@@ -39,7 +39,8 @@ Template Name: Blog
                         </div>
                         <div class="fix"></div>
                     </div><!-- /.post -->
-                                                        
+                    
+                    <h2 class="post_comm"></h2>                                    
                     <div class="post-bottom" style="display:none; visibility:hidden;">
                         <div class="fl"><span class="cat"><?php the_category(', ') ?></span></div>
                         <div class="fr"><?php the_tags('<span class="tags">', ', ', '</span>'); ?></div> 
