@@ -213,6 +213,20 @@ div.row-single{height:auto;width:750px;}
 				div.attorney-full span{font-size:14px; line-height:8px; font-weight:bold; margin:0;}
 			div.attorney-full ul li {list-style-type:none;}	
 				
+
+/* Attorneys Page
+-------------------------------------------------------------- */
+
+body.page-template-template-blog-php h2 {margin:0; border:none;}
+body.page-template-template-blog-php h2 a {color:#B61D22; margin:0; border:none;}
+body.page-template-template-blog-php p.post-meta { padding: 10px 0}
+body.page-template-template-blog-php span.read-more, body.page-template-template-blog-php span.cat{float:right;}
+body.page-template-template-blog-php span.read-more a{color:#B61D22;}
+body.page-template-template-blog-php span.comments{margin-left: 20px; padding-left:20px; background:url(http://yusenandfriedrich.com/wp-content/themes/themorningafter/images/ico-comment.png) no-repeat;}
+body.page-template-template-blog-php span.cat{font-size:10px; float:right; padding-left:25px; background:url(http://yusenandfriedrich.com/wp-content/themes/themorningafter/images/ico-tags.png) no-repeat;}
+body.page-template-template-blog-php div.box{padding: 0 1.5em 3em 1.5em; background: transparent;border-bottom: solid 3px #CDCDCD; min-height:200px;}
+body.page-template-template-blog-php img{float:left; margin:0 15px 0 0;}
+
 				
 /* Generic Pages
 -------------------------------------------------------------- */

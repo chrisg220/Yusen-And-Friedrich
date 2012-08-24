@@ -231,7 +231,7 @@ img.WP-PrintIcon, img.WP-EmailIcon { display: none; }
 .post_text a { border-bottom: 1px solid #eee; }
 #post_content blockquote { float: right; width: 260px; color: #666; margin: 0 0 0 1.5em; color: #000; font: bold 1.3em georgia, serif; font-style: italic; letter-spacing: -0.048em; }
 #post_content blockquote p { text-align: right; line-height: 1.5em; }
-#post_content p img { /*margin: 0;padding:0;*/ }
+#post_content p img { /*margin: 0;padding:0;*/ vertical-align: top; margin: 0 5px;}
 #post_content img.WP-PrintIcon, #post_content img.WP-EmailIcon, #post_content img.posttag { margin: 0 0.3em 0 0;padding: 0.1em 0 0 0; }
 #post_content p a, #arch_content p a, .post_meta a { color: /*#224970;*/#3a6999; }
 #post_content p a:hover, #arch_content p a:hover { color: #000; text-decoration: underline; }
