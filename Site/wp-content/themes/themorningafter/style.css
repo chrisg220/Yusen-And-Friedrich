@@ -181,12 +181,12 @@ ul.email li { padding: 0 0 0.2em 20px; margin: 0 0 0.5em 0; border-bottom: 1px s
 
 /** widgets **/
 
-.widget { margin: 0 0 1.4em 0; background: #EFEFEF; }
+.widget { margin: 0 0 1.4em 0; padding:0 0 5px 0; background: #EFEFEF; -webkit-border-radius: 5px; border-radius: 5px; }
 .widget a { color: #224970; }
 .widget a:hover { color: #000; }
 .widget ul, .widget ol { list-style: none; padding: 0; margin: 0; }
-.widget ul li { padding: 0 0 0.3em 20px; margin: 0 0 0.5em 0; border-bottom: 1px solid #dadada; background: url(images/bg/postbullet.png) no-repeat 0 2px; }
-.widget ol li { padding: 0 0 0.3em 10px; margin: 0 0 0.5em 0; border-bottom: 1px solid #dadada;  }
+.widget ul li { padding: 0 0 0.3em 20px; margin: 0 0 0.5em 0; background: url(images/bg/postbullet.png) no-repeat 0 2px; }
+.widget ol li { padding: 0 0 0.3em 10px; margin: 0 0 0.5em 0;  }
 
 /*recent comments*/
 ul#recentcomments li.recentcomments { background: url(images/bg/bubble.png) no-repeat 0 3px; }

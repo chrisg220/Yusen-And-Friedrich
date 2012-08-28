@@ -56,7 +56,7 @@ body{text-align:center;margin:0;}
 * html .column{overflow-x:hidden;}
 .border{padding-right:9px;margin-right:0;border-right:1px solid #ddd;}
 .first{margin-left:0;}
-.last{margin-right:0;}
+.last{margin-right:0;margin-top:15px;}
 .span-1{width:50px;}
 .span-2{width:120px;}
 .span-3{width:190px;}
