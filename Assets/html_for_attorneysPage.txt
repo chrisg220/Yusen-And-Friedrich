@@ -1,0 +1,238 @@
+<!-- HTML code for Jeff Yusen
+-------------------------------------------------------------->
+
+<h3 class="tab">Attorneys</h3>
+<h2>Jeff H. Yusen</h2>
+
+<div class="row-single">
+        <div class="attorney-full">
+        <img src="http://yusenandfriedrich.com/wp-content/uploads/2012/03/prof_jeffYusen.jpg"/> 
+            <div class="attorneys-highlights">
+               <h4>Areas of Practice</h4>
+                <ul>
+                    <li>Surety and Fidelity Defense</li>
+                    <li>Subrogation and Indemnity</li>
+                    <li>Bankruptcy</li>
+                </ul>
+            </div>
+            <div class="attorneys-contact">
+               <h4>Contact</h4>
+               <span class="category">E-mail</span>:&nbsp;firm@yusenandfriedrich.com<br/>
+               <span class="category">Phone</span>:&nbsp;(206) 545-2123<br/>
+               <span class="category">Fax</span>:&nbsp;(206) 545-6828<br/>
+            </div>
+        </div>
+</div>
+
+<h4>Practice Description</h4>
+    <p>Jeff has been in the private practice of law since 1977 in the State of Washington. In 1977-78 he was a law clerk to the Hon. Jack P. Schofield. Since 1978, the majority of his practice has concentrated on the representation of surety and fidelity insurers in the State of Washington and throughout the West. His practice focuses on surety bond defense work as well as subrogation and recovery work. Jeff has been very active with legislative and industry groups relating to the surety industry, has authored a number of articles dealing with the surety industry and has been a speaker at a number of seminars relating to surety issues. Along with Alex Friedrich, he formed Yusen & Friedrich in 1988.</p>
+
+<h4>Professional Associations</h4>
+<ul>
+<li>Washington State Bar Association</li>
+<li>Public Procurement and Private Construction Law Section of the Washington State Bar Association</li>
+<li>Washington State Senate Lien Task Force, 1989-1992</li>
+<li>Unregistered Contractors Task Force, 1998-2004</li>
+<li>Various Legislative Groups Overseeing Revisions to Contractor’s Registration Act</li>
+</ul>
+
+<h4>Admitted to Practice</h4>
+<ul>
+<li>Washington State Courts</li>
+<li>United States District Court for the Western District of Washington</li>
+</ul>
+
+<h4>Education</h4>
+<ul>
+<li>J.D., University of Puget Sound (Seattle University School of Law), 1977</li>
+<li>Recipient: American Jurisprudence Award in Torts, 1975</li>
+<li>B.A. with High Honors, University of Texas, Austin, 1974</li>
+<li>Phi Bet Kappa, University of Texas, 1974</li>
+</ul>
+
+<h4>Publications</h4>
+<ul>
+<li>Suretyship and Liens (2006) (Contributed article “Bond Claims Under the Washington State Contractors Registration Act)</li>
+<li>Washington State Chapter, The Law of Motor Vehicle Dealer Bonds, ABA Publications, 2006</li>
+</ul>
+
+<!-- HTML code for Alex Friedrich
+-------------------------------------------------------------->
+<h3 class="tab">Attorneys</h3>
+<h2>Alexander Friedrich</h2>
+
+<div class="row-single">
+        <div class="attorney-full">
+        <img src="http://yusenandfriedrich.com/wp-content/uploads/2012/03/prof_alexFriedrich.jpg"/> 
+            <div class="attorneys-highlights">
+               <h4>Areas of Practice</h4>
+                <ul>
+                    <li>Fidelity Law</li>
+                    <li>Surety Law</li>
+                    <li>Bankruptcy and Creditors Rights</li>
+                    <li>Construction – Transaction and Litigation</li>
+                    <li>Subrogation and Indemnity Claims</li>
+                    <li>Commercial Litigation</li>
+                </ul>
+            </div>
+            <div class="attorneys-contact">
+               <h4>Contact</h4>
+               <span class="category">E-mail</span>:&nbsp;firm@yusenandfriedrich.com<br/>
+               <span class="category">Phone</span>:&nbsp;(206) 545-2123<br/>
+               <span class="category">Fax</span>:&nbsp;(206) 545-6828<br/>
+            </div>
+        </div>
+</div>
+
+<h4>Practice Description</h4>
+            <p>Mr. Friedrich is the co-founder of Yusen & Friedrich, which he established with Jeff
+Yusen in January of 1988. Mr. Friedrich has authored numerous articles in the area of
+fidelity and surety law, and he has regularly lectured on numerous topics involving surety
+and fidelity matters.</p>
+            <p>Mr. Friedrich concentrates his practice in the areas of fidelity and surety law, commercial
+litigation, bankruptcy, and construction law. He has been successfully representing
+sureties and fidelity carriers in complex litigation since 1975.</p>
+            
+<h4>Professional Associations</h4>
+<ul>
+<li>King County and Washington State Bar Associations</li>
+<li>Public Procurement and Private Construction Law Section</li>
+<li>Washington State Liens and Security Interests Committee</li>
+<li>American Bar Association – Tort Trial & Insurance Practice Section – Fidelity &
+Surety Law Committee</li>
+</ul>
+
+<h4>Admitted to Practice</h4>
+<ul>
+<li>Washington State Courts</li>
+<li>United States District Court for the Western District of Washington</li>
+</ul>
+
+<h4>Education</h4>
+<ul>
+<li>B.A. University of Washington, 1972</li>
+<li>J.D. Seattle University, 1975</li>
+</ul>
+
+<h4>Publications & Presentations</h4>
+<p>A frequent speaker and author, Alexander Friedrich is a contributor of the American
+Bar Association’s “Performance Bond Manual” First Edition, State of Washington,
+and “Payment Bond Manual” Third Edition, State of Washington.</p>
+<p>Alexander Friedrich has also lectured on numerous topics to state and local industry
+audiences, which include the following:</p>
+
+<ul>
+<li>Public Works Bond and Retainage Claims in the State of Washington, The Seminar Group, Washington Construction Law, September, 2011.</li>
+<li>State of Washington Contractor’s Registration Statute, The Seminar Group, Washington Construction Law, September, 2010.</li>
+<li>Dealing with the Surety, The Seminar Group, Washington Construction Law, September, 2009.</li>
+<li>Dealing with the Surety, Insurance Fair Conduct Act, The Seminar Group Annual Construction Law Seminar, September, 2008.</li>
+<li>Payment Bond Claims, The Seminar Group Washington Construction Law Annual Seminar, September, 2007.</li>
+<li>Dealing with the Surety, Performance Bonds, The Seminar Group Washington Construction Law Seminar, September, 2006.</li>
+</ul>
+
+<!-- HTML code for John York
+-------------------------------------------------------------->
+<h3 class="tab">Attorneys</h3>
+<h2>John S. York Jr.</h2>
+
+<div class="row-single">
+        <div class="attorney-full">
+        <img src="http://yusenandfriedrich.com/wp-content/uploads/2012/03/prof_johnYork.jpg"/> 
+            <div class="attorneys-highlights">
+               <h4>Areas of Practice</h4>
+                <ul>
+                    <li>Surety Defense</li>
+                    <li>Subrogation and Indemnity</li>
+                    <li>Bankruptcy and Creditors Rights</li>
+                    <li>Construction Litigation</li>
+                    <li>Commercial Litigation</li>
+                </ul>
+            </div>
+            <div class="attorneys-contact">
+               <h4>Contact</h4>
+               <span class="category">E-mail</span>:&nbsp;firm@yusenandfriedrich.com<br/>
+               <span class="category">Phone</span>:&nbsp;(206) 545-2123<br/>
+               <span class="category">Fax</span>:&nbsp;(206) 545-6828<br/>
+            </div>
+        </div>
+</div>
+
+<h4>Practice Description</h4>
+            <p>Mr. York has been in private practice since 1977 in the state of Washington. Since that
+time his practice has concentrated on the areas of surety law, construction litigation and
+business representation. Since 1977 he has successfully represented sureties, building
+owners and contractors. He has been affiliated with Yusen and Friedrich since 1988.</p>
+            
+<h4>Professional Associations</h4>
+<ul>
+<li>Washington State Bar Association</li>
+</ul>
+
+<h4>Admitted to Practice</h4>
+<ul>
+<li>Washington State Courts</li>
+<li>United States District Court for the Western District of Washington</li>
+<li>United States District Court for the Eastern District of Washington</li>
+<li>United States Court of Appeals, Ninth Circuit</li>
+</ul>
+
+<h4>Education & Honors</h4>
+<ul>
+<li>B.S. University of Washington, 1970</li>
+<li>J.D. University of Puget Sound, 1977</li>
+</ul>
+
+
+<!-- HTML code for Paul Friedrich
+-------------------------------------------------------------->
+<h3 class="tab">Attorneys</h3>
+<h2>Paul K. Friedrich</h2>
+
+<div class="row-single">
+        <div class="attorney-full">
+        <img src="http://yusenandfriedrich.com/wp-content/uploads/2012/03/prof_paulFriedrich.jpg"/> 
+            <div class="attorneys-highlights">
+               <h4>Areas of Practice</h4>
+                <ul>
+                    <li>Construction Law and Litigation</li>
+                    <li>Commercial Litigation</li>
+                    <li>Surety & Fidelity</li>
+                    <li>Subrogation and Indemnity</li>
+                    <li>Bankruptcy</li>
+                    <li>Insurance Coverage</li>
+                </ul>
+            </div>
+            <div class="attorneys-contact">
+               <h4>Contact</h4>
+               <span class="category">E-mail</span>:&nbsp;paul@yusenandfriedrich.com<br/>
+               <span class="category">Phone</span>:&nbsp;(206) 545-2123<br/>
+               <span class="category">Fax</span>:&nbsp;(206) 545-6828<br/>
+            </div>
+        </div>
+</div>
+
+<h4>Practice Description</h4>
+            <p>Mr. Friedrich’s practice involves representing sureties and insurers in all aspects of bond claims with a particular emphasis on construction law.  A significant portion of his practice is devoted to prosecuting indemnity and subrogation matters on behalf of his surety clients.  Mr. Friedrich has a proven track record of success for his clients at both the trial court level and on appeal.  Mr. Friedrich joined Yusen & Friedrich as a law clerk in his third year of law school and has remained with the firm ever since.</p>
+
+<h4>Professional Associations</h4>
+<ul>
+<li>Law Clerk and Rule 9 Intern, WA State Attorney General’s Office, 2008-2009</li>
+<li>Washington State Bar Association – Construction Law Section</li>
+<li>King County Bar Association</li>
+<li>American Bar Association – Tort Trial & Insurance Practice Section – Fidelity & Surety Law Committee</li>
+</ul>
+
+<h4>Admitted to Practice</h4>
+<ul>
+<li>Washington State Courts</li>
+<li>United States District Court – Western and Eastern Districts of Washington</li>
+<li>United States Bankruptcy Court – Western District of Washington</li>
+</ul>
+
+<h4>Education</h4>
+<ul>
+    <li>J.D., cum laude, Seattle University, 2010 
+     <ul><li>Cali Award- Bankruptcy</li></ul>
+    </li>
+<li>B.A., Law, Societies, and Justice, University of Washington, 2007, with Honors. </li>
+</ul>
