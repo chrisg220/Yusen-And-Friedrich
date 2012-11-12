@@ -20,7 +20,7 @@ Author URI: http://www.christopherneilgonzales.com
 
 /* Start The Morning After stylesheet
 -------------------------------------------------------------- */
-body {background:#dedede url(http://yusenandfriedrich.com/wp-content/uploads/2012/03/bg_gradientGrey.jpg) repeat-x;}
+body {background:#261609 url(http://yusenandfriedrich.com/images/bg-wood.jpg) no-repeat;}
 h2 {
 	margin: 0 0 20px 0; 
 	color:#B61D22; 
@@ -60,16 +60,19 @@ ul li {list-style-type:circle;margin-bottom: 5px;}
 
 /* Wrapper
 -------------------------------------------------------------- */
-.container{padding:0 15px; background:#FFFFFF;}
+.container{padding:0 15px; background-color: rgba(255,255,255,0.6)}
 .shadow {
 	/*Box Shadow*/
-	-webkit-box-shadow: 0px -13px 30px 0px #656565;
-	   -moz-box-shadow: 0px -13px 30px 0px #656565;
-	        box-shadow: 0px -13px 30px 0px #656565;
+	-webkit-box-shadow: 0px 0px 20px 0px #000000;
+	   -moz-box-shadow: 0px 0px 20px 0px #000000;
+	        box-shadow: 0px 0px 20px 0px #000000;
 }
 
 /* Header styles
 -------------------------------------------------------------- */
+div.header-wrapper {display: block; margin: 0 auto; width: 850px;}
+
+#header {margin: -120px auto 0 auto; width: 100%;}
 #header #logo .title .desc {margin:-2px 0 0 0;}
 	
 /* Search and navigation
@@ -85,21 +88,22 @@ ul li {list-style-type:circle;margin-bottom: 5px;}
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 	/*Background Gradient*/
-	background: #e08688;
-	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2UwODY4OCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiNjFkMjIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-	background: -moz-linear-gradient(top, #e08688 0%, #b61d22 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e08688), color-stop(100%,#b61d22));
-	background: -webkit-linear-gradient(top, #e08688 0%,#b61d22 100%);
-	background: -o-linear-gradient(top, #e08688 0%,#b61d22 100%);
-	background: -ms-linear-gradient(top, #e08688 0%,#b61d22 100%);
-	background: linear-gradient(top, #e08688 0%,#b61d22 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e08688', endColorstr='#b61d22',GradientType=0 );
-	border-top: 1px solid #b61d22;
-	border-bottom: 1px solid #c2c3cb;
+	background: #ad1e1e;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2FkMWUxZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM3OTEzMWEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, #ad1e1e 0%, #79131a 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ad1e1e), color-stop(100%,#79131a));
+	background: -webkit-linear-gradient(top, #ad1e1e 0%,#79131a 100%);
+	background: -o-linear-gradient(top, #ad1e1e 0%,#79131a 100%);
+	background: -ms-linear-gradient(top, #ad1e1e 0%,#79131a 100%);
+	background: linear-gradient(to bottom, #ad1e1e 0%,#79131a 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ad1e1e', endColorstr='#79131a',GradientType=0 );
+	/*End Background Gradient*/
+	border-top: 1px solid #79131A;
+	border-bottom: 1px solid #AD1E1E;
 	margin:21px 0 0 0; 
 }
-#menu li, #main-nav li {padding:0; margin:0; text-transform:none;border-right: 1px solid #b61d22;border-left: 1px solid #e08688;}
-#menu li a, #menu li a:hover, #main-nav li a, #main-nav li a:hover{display:block; padding:12px; font-family:Arial, Helvetica, sans-serif; font-size:14px;}
+#menu li, #main-nav li {padding:0; margin:0; text-transform:uppercase; border-right: 1px solid #79131A;border-left: 1px solid #AD1E1E;}
+#menu li a, #menu li a:hover, #main-nav li a, #main-nav li a:hover{display:block; padding:8px; font-family:"Times New Roman", Times, serif; font-size:12px;}
 #menu li a:hover, #main-nav li a:hover,
 .nav a:hover, .nav li.current_page_item a, .nav li.current_page_parent a, .nav li.current-menu-ancestor a, .nav li.sfHover{
 	color:white; 
@@ -118,7 +122,7 @@ ul li {list-style-type:circle;margin-bottom: 5px;}
 	box-shadow:inset 0 0 10px #494848;
 	-moz-box-shadow:inset 0 0 10px #494848;
 	/*Inner Shadow*/
-	text-shadow: 0 1px 0 #333333;
+	text-shadow: 0 1px 0 #000;
 }
 /*
 .nav a:hover, .nav li.current_page_item a, .nav li.current_page_parent a, .nav li.current-menu-ancestor a, .nav li.sfHover {
@@ -129,9 +133,12 @@ text-shadow:none;
 */
 
 .border_left{border-left:none;}
+
 /* Top banner with rotating images
 -------------------------------------------------------------- */
-#topbanner { height: 260px; border: solid 1px #dadada; }
+div.banner-wrapper {padding: 10px; background: #cacaca; height: 235px; width: 760px; margin: 30px auto 0; display: block; position: relative; -webkit-box-shadow: 0px 1px 5px 1px #333333; box-shadow: 0px 1px 5px 1px #333333;}
+
+#topbanner {margin: 0 auto; float: none; height: 235px; width: 760px; border: solid 1px #000; }
 #topbanner .pagetitle, #topbanner_arch .pagetitle, #topbanner_single .pagetitle {
 float: left;
 background: white;

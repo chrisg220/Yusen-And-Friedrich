@@ -116,7 +116,7 @@ ul.arrow li a:hover, ul.reccom li a:hover, ul.email li a:hover { color: #000; ba
 #navigation ul.rss li a:hover{text-decoration:underline;}
 
 .nav { z-index:99; margin:0; padding:0; list-style:none; line-height:1; }
-.nav a  { position:relative; color:#FFF	; display:block; z-index:100; padding:5px 10px; line-height:18px; text-decoration:none; text-shadow:0 1px 0 #b61d22; }
+.nav a  { position:relative; color:#FFF	; display:block; z-index:100; padding:5px 10px; line-height:18px; text-decoration:none; text-shadow:0 1px 0 #000; }
 .nav a:hover, 
 .nav li.current_page_item a, 
 .nav li.current_page_parent a,

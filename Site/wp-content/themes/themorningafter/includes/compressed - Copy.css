@@ -51,7 +51,7 @@ p.incr,.incr p{font-size:0.83333em;line-height:1.44em;margin-bottom:1.8em;}
 
 /* grid.css */
 body{text-align:center;margin:0;}
-.container{text-align:left;position:relative;padding:0;margin:120px auto 0 auto; width:820px;}
+.container{text-align:left;position:relative;padding:0;margin:0 auto;width:960px;}
 .column{float:left;margin:0 20px;padding:0;}
 * html .column{overflow-x:hidden;}
 .border{padding-right:9px;margin-right:0;border-right:1px solid #ddd;}
@@ -70,7 +70,7 @@ body{text-align:center;margin:0;}
 .span-11{width:730px;}
 .span-12{width:820px;}
 .span-13{width:890px;}
-.span-14{width:820px;margin:0;}
+.span-14{width:960px;margin:0;}
 .append-1{padding-right:70px;}
 .append-2{padding-right:140px;}
 .append-3{padding-right:210px;}
