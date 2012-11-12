@@ -27,24 +27,27 @@ h2 {
 	font-weight:bold; 
 	border-bottom: solid 5px #CDCDCD; 
 }
-h3, h4 {color:#B61D22; font-size:16px; font-weight:bold;}
+h3, h4 {color:#B61D22; font-size:16px; }
 h3{margin-bottom:20px;}
 h4{font-size:16px; margin: 40px 0 15px 0;}
 h3.tab {
-	font-size:18px;
+	font-size:20px;
 	display: inline-block;
+	/*Text Shadow*/
+	text-shadow: -1px 1px 1px #333333;
+    filter: dropshadow(color=#333333, offx=-1, offy=1);
 	/*Border Radius*/
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 	background:#b61d22;
 	color:#ffffff;
-	margin:10px 0 20px -38px;
-	padding: 5px 28px 5px 28px;
+	margin:10px 0 20px -20px;
+	padding: 0 28px 0 28px;
 	/*Box Shadow*/
-	-webkit-box-shadow: -1px 2px 3px 0px #999999;
-	-moz-box-shadow: -1px 2px 3px 0px #999999;
-	box-shadow: -1px 2px 3px 0px #999999; 
+	-webkit-box-shadow: -1px 2px 3px 0px #444444;
+	-moz-box-shadow: -1px 2px 3px 0px #444444;
+	box-shadow: -1px 2px 3px 0px #444444; 
 }
 h3.sidebar {margin:10px 0 20px -10px; font-size:12px;}
 .feat_title a {font-family:Arial, Helvetica, sans-serif; font-size:15px; color:#b61d22;}
@@ -136,9 +139,9 @@ text-shadow:none;
 
 /* Top banner with rotating images
 -------------------------------------------------------------- */
-div.banner-wrapper {padding: 10px; background: #cacaca; height: 235px; width: 760px; margin: 30px auto 0; display: block; position: relative; -webkit-box-shadow: 0px 1px 5px 1px #333333; box-shadow: 0px 1px 5px 1px #333333;}
+div.banner-wrapper {padding: 10px; background: #cacaca; height: 235px; width: 760px; margin: 28px auto 0; display: block; position: relative; -webkit-box-shadow: 0px 1px 5px 1px #333333; box-shadow: 0px 1px 5px 1px #333333;}
 
-#topbanner {margin: 0 auto; float: none; height: 235px; width: 760px; border: solid 1px #000; }
+#topbanner {margin: 0 auto; float: none; height: 235px; width: 760px; border: solid 1px #777; }
 #topbanner .pagetitle, #topbanner_arch .pagetitle, #topbanner_single .pagetitle {
 float: left;
 background: white;
@@ -153,9 +156,9 @@ margin: 20px 0 0 0;
 
 /* Home Page
 -------------------------------------------------------------- */
-div#home_top{width:960px; height:230px;margin-bottom:25px}
+div#home_top{width:820px; height:230px;margin-bottom:25px}
 div#home_featured {background:none;}
-div#home_left.column.span-7.first.home-page {width:630px;}
+div#home_left.column.span-7.first.home-page {width:570px;}
 div#home_right.column.span-7.last {width:210px; float:right;}
 
 div.column.span-4.first.home-side-bar {background:#ededed;}
