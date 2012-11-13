@@ -2,12 +2,13 @@
 	get_header();
 	global $woo_options;
 	get_template_part( 'top-banner' );
-?> 
+?> 		
+		<h3 class="tab">Who We Are</h3>
         <div id="home_content" class="column span-14">
         	<div id="home_top">
-            	<h3 class="tab">Who We Are</h3>
+            	
                 <p>Located in Seattle, Washington, Yusen & Friedrich is a boutique Pacific Northwest law firm. We specialize in surety and fidelity law, with an emphasis on construction law, complex commercial litigation, real estate, insurance coverage and defense, and bankruptcy. </p>
-                <p>Founded in 1988 by Jeff Yusen and Alexander Friedrich, Yusen & Friedrich is only firm in the State of Washington exclusively representing sureties in construction and fidelity matters. Each attorney in the firm has extensive experience in surety, fidelity, and construction-related litigation. As a boutique law firm, we give clients high quality service and personal attention. One of the firm's primary objectives is to get to know its clients on a personal level so that it can meet your legal needs in a cost-effective and timely manner. The firm enjoys a superior reputation for excellent, competitive, and cost-effective legal services. <a href="http://yusenandfriedrich.com/about-us/" class="btn read-more" alt="about us"></a> </p>
+                <p>Founded in 1988 by Jeff Yusen and Alexander Friedrich, Yusen & Friedrich is only firm in the State of Washington exclusively representing sureties in construction and fidelity matters. Each attorney in the firm has extensive experience in surety, fidelity, and construction-related litigation. As a boutique law firm, we give clients high quality service and personal attention. One of the firm's primary objectives is to get to know its clients on a personal level so that it can meet your legal needs in a cost-effective and timely manner. The firm enjoys a superior reputation for excellent, competitive, and cost-effective legal services. <a href="http://yusenandfriedrich.com/about-us/" alt="about us">Read More</a><!--<a href="http://yusenandfriedrich.com/about-us/" class="btn read-more" alt="about us"></a> --> </p>
             </div>
             <div id="home_left" class="column span-7 first home-page">
          
