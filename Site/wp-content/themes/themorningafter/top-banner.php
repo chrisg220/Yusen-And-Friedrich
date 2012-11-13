@@ -64,3 +64,19 @@
             ?>
     </div>
 </div>
+
+<?php 
+
+$StringNew = '';
+
+$className = get_body_class($class); 
+if ($className[0] == 'home') {
+	$StringNew = 'Who We Are';
+} else {
+	$StringNew = str_replace('-', ' ', $pagename); 
+}
+
+
+
+?>
+<h3 class="tab"><?php echo $StringNew ?> </h3>

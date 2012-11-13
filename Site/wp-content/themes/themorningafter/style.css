@@ -78,10 +78,11 @@ h2 { font-weight: normal; }
 
 /* featured post */
 
-#home_featured { background: #f2f2f2 url(images/bg/dot.png) repeat-x bottom left; margin: 0 0 1.1em 0; float: left; width: 100%; }
+#home_featured { background: #f2f2f2 url(images/bg/dot.png) repeat-x bottom left; margin: 0 0 0 20px; float: left; width: 520px;background-color: rgba(102, 102, 102, 0.4);
+padding: 10px; }
 .feat_content { float: left; padding: 0 0.7em 0.4em 0.7em; }
 .feat_content img { float: left; padding: 0; margin: 0.2em 1em 1em 0; border: 1px solid #999; }
-.feat_title { font: 700 12px georgia, serif; padding: 0 0 0.3em 0; }
+.feat_title { font: 700 12px georgia, serif; padding: 0 0 0.3em 0;margin-bottom: 15px; }
 .feat_title a { color: #224970; }
 .feat_title a:hover { color: #000; }
 
@@ -206,7 +207,7 @@ table#wp-calendar td a { font-weight: bold; }
 /* Archive styles
 -------------------------------------------------------------- */
 
-#arch_content, #post_content { margin: 1.5em 0; }
+#arch_content, #post_content { margin: /*1.5em*/ 0 0; }
 .archive_meta { margin: 1.5em 0; border-top: 1px solid #dadada; }
 .archive_meta a { color: #666; }
 .archive_meta a:hover { color: #3a6999; }
@@ -221,7 +222,7 @@ table#wp-calendar td a { font-weight: bold; }
 /* Single post styles
 -------------------------------------------------------------- */
 
-.post_meta { color: #666; padding: 0.3em 0 0.4em 0; font-size: 0.8em; text-transform: uppercase; }
+.post_meta { color: #333; padding: 0.3em 0 0.4em 0; font-size: 0.8em; text-transform: uppercase; }
 .post_meta_tag { color: #666; }
 .post_meta p img, .post_meta a img { margin: 0; padding: 0; float: none; }
 img.WP-PrintIcon, img.WP-EmailIcon { display: none; }
@@ -233,8 +234,8 @@ img.WP-PrintIcon, img.WP-EmailIcon { display: none; }
 #post_content blockquote p { text-align: right; line-height: 1.5em; }
 #post_content p img { /*margin: 0;padding:0;*/ vertical-align: top; margin: 0 5px;}
 #post_content img.WP-PrintIcon, #post_content img.WP-EmailIcon, #post_content img.posttag { margin: 0 0.3em 0 0;padding: 0.1em 0 0 0; }
-#post_content p a, #arch_content p a, .post_meta a { color: /*#224970;*/#3a6999; }
-#post_content p a:hover, #arch_content p a:hover { color: #000; text-decoration: underline; }
+#post_content p a, #arch_content p a, .post_meta a { color: /*#224970;*/#AD1E1E; }
+#post_content p a:hover, #arch_content p a:hover { color: #fff; text-decoration: underline; }
 
 /* Comment area styles
 -------------------------------------------------------------- */

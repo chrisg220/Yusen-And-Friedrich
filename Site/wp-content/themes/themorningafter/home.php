@@ -3,12 +3,11 @@
 	global $woo_options;
 	get_template_part( 'top-banner' );
 ?> 		
-		<h3 class="tab">Who We Are</h3>
         <div id="home_content" class="column span-14">
         	<div id="home_top">
             	
                 <p>Located in Seattle, Washington, Yusen & Friedrich is a boutique Pacific Northwest law firm. We specialize in surety and fidelity law, with an emphasis on construction law, complex commercial litigation, real estate, insurance coverage and defense, and bankruptcy. </p>
-                <p>Founded in 1988 by Jeff Yusen and Alexander Friedrich, Yusen & Friedrich is only firm in the State of Washington exclusively representing sureties in construction and fidelity matters. Each attorney in the firm has extensive experience in surety, fidelity, and construction-related litigation. As a boutique law firm, we give clients high quality service and personal attention. One of the firm's primary objectives is to get to know its clients on a personal level so that it can meet your legal needs in a cost-effective and timely manner. The firm enjoys a superior reputation for excellent, competitive, and cost-effective legal services. <a href="http://yusenandfriedrich.com/about-us/" alt="about us">Read More</a><!--<a href="http://yusenandfriedrich.com/about-us/" class="btn read-more" alt="about us"></a> --> </p>
+                <p>Founded in 1988 by Jeff Yusen and Alexander Friedrich, Yusen & Friedrich is only firm in the State of Washington exclusively representing sureties in construction and fidelity matters. Each attorney in the firm has extensive experience in surety, fidelity, and construction-related litigation. As a boutique law firm, we give clients high quality service and personal attention. One of the firm's primary objectives is to get to know its clients on a personal level so that it can meet your legal needs in a cost-effective and timely manner. The firm enjoys a superior reputation for excellent, competitive, and cost-effective legal services.  <a href="http://yusenandfriedrich.com/about-us/" alt="about us"> Read More</a><!--<a href="http://yusenandfriedrich.com/about-us/" class="btn read-more" alt="about us"></a> --> </p>
             </div>
             <div id="home_left" class="column span-7 first home-page">
          
@@ -44,7 +43,7 @@
 					} // End WHILE Loop
 				?>
 				
-				
+				<h3 class="tab home"><?php echo $woo_options['woo_featured_heading']; ?></h3>
 				<div id="home_featured">
 				
 					<?php
@@ -53,7 +52,7 @@
                     if ($limit > 0) {
 					?>
 				
-					<h3 class="tab"><?php echo $woo_options['woo_featured_heading']; ?></h3>
+					
 					
 					<?php 
 					$feat_id = get_cat_id($woo_options['woo_featured_category']);           
@@ -68,10 +67,17 @@
 					
 						<?php woo_image( 'width=70&height=70	' ); ?>
 						
-						<div class="feat_title"><a href="<?php the_permalink(); ?>" rel="bookmark" title="<?php _e( 'Permanent Link to', 'woothemes' );?> <?php the_title_attribute(); ?>"><?php the_title(); ?></a></div>
+						<div class="feat_title"><a href="<?php the_permalink(); ?>" class="post-title" rel="bookmark" title="<?php _e( 'Permanent Link to', 'woothemes' );?> <?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+                            <div class="post_meta">
+                        <?php _e( 'By','woothemes' );?> <?php the_author_posts_link(); ?> <span class="dot">&sdot;</span> <?php the_time( get_option( 'date_format' ) ); ?> <span class="dot">&sdot;</span> <?php if( function_exists( 'wp_email' ) ) { ?> <?php email_link(); ?> <span class="dot">&sdot;</span> <?php } ?> <?php if( function_exists( 'wp_print' ) ) { ?> <?php print_link(); ?> <!-- <span class="dot">&sdot;</span> --> <?php  } ?>  <!-- <a href="#comments"> --> <?php /* _e( 'Post a comment','woothemes' ); */?> <!-- </a> -->
+                            </div>
+                        </div>
+                        
+                        
 						
 						<div class="feat_exc">						
-							<?php if ( $woo_options['woo_post_content_home'] == 'true' ) { the_content(); } else { the_excerpt(); } ?>
+							<?php if ( $woo_options['woo_post_content_home'] == 'true' ) { the_content(); } else { the_excerpt(); } ?> 
+                            <a href="<?php the_permalink(); ?>" rel="bookmark" title="<?php _e( 'Permanent Link to', 'woothemes' );?> <?php the_title_attribute(); ?>">Read More</a>
 						</div>
 											
 					</div>
@@ -80,7 +86,7 @@
 							} // End WHILE Loop
 						} // End IF Statement
 					?>
-						
+					 
 				</div>
 				<?php 
 				$limit = $woo_options['woo_updates_limit'];

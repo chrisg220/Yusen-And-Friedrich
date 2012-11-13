@@ -6,7 +6,7 @@ Template Name: Blog
 	global $woo_options;
 	get_template_part( 'top-banner' );
 ?>    
-		<h3 class="tab">Legal News</h3>
+		
         <div id="post_content" <?php post_class( 'column span-14 first' ); ?>>
             <?php if ( !$paged && get_option('woo_featured') == "true" ) include ( TEMPLATEPATH . '/includes/featured.php' ); ?>
     

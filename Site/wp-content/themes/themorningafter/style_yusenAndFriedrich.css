@@ -26,17 +26,18 @@ Author URI: http://www.christopherneilgonzales.com
 /* Start The Morning After stylesheet
 -------------------------------------------------------------- */
 body {background:#261609 url(http://yusenandfriedrich.com/images/bg-wood.jpg) no-repeat;}
+h2, h3, h4 {font-weight: bold;}
 h2 {
 	margin: 0 0 20px 0; 
 	color:#B61D22; 
-	font-weight:bold; 
 	border-bottom: solid 5px #CDCDCD; 
 }
-h3, h4 {color:#B61D22; font-size:16px; }
+h3, h4 {color:#B61D22; font-size:18px; }
 h3{margin-bottom:20px;}
 h4{font-size:16px; margin: 40px 0 15px 0;}
 h3.tab {
-	font-size:20px;
+	text-transform:uppercase;
+	font-size:16px;
 	display: inline-block;
 	/*Background Gradient*/
 	background: #ad1e1e;
@@ -58,20 +59,23 @@ h3.tab {
 	border-radius: 3px;
 	color:#ffffff;
 	margin:20px 0 20px -20px;
-	padding: 0 28px 0 28px;
+	padding: 3px 20px;
 	/*Box Shadow*/
 	-webkit-box-shadow: 1px 2px 5px 0px #111;
 	   -moz-box-shadow: 1px 2px 5px 0px #111;
 	        box-shadow: 1px 2px 5px 0px #111; 
 }
 h3.sidebar {margin:10px 0 20px -10px; font-size:12px;}
-.feat_title a {font-family:Arial, Helvetica, sans-serif; font-size:15px; color:#b61d22;}
+.feat_title a.post-title {font-family:"Times New Roman", Times, serif; font-size:18px; color:#000; text-shadow: 1px 1px 1px #cdcdcd; text-decoration:none;}
+.feat_title a.post-title:hover{color:#AD1E1E;}
 
 a.btn{height:25px; width:81px;display:inline-block; vertical-align:middle; margin-left:10px}
 	a.btn.read-more {background:url(../../../images/btn_readMore.png) 0px 0px no-repeat; }
 	a.btn.read-more:hover {background:url(../../../images/btn_readMore.png) 0px -25px no-repeat;}
 
-p {color: #fff; line-height:20px; font-family:segoeui_0, Verdana, Geneva, sans-serif;}
+p, ul {color: #fff; font-family:segoeui_0, Verdana, Geneva, sans-serif; text-shadow: 0px 1px 1px #333333;filter: dropshadow(color=#333333, offx=0, offy=1);}
+p {line-height:18px;}
+p a, div.widget ul, div.widget p {text-shadow: none; filter: none; color: #000;}
 span.category {font-size: 14px; line-height: 8px; font-weight: bold;}	
 
 ul li {list-style-type:circle;margin-bottom: 5px;}
@@ -172,16 +176,28 @@ margin: 20px 0 0 0;
 /* Home Page
 -------------------------------------------------------------- */
 div#home_top{width: 730px;height: auto;margin: 0 auto 10px auto;background-color: rgba(102, 102, 102, 0.4);padding: 25px;}
-div#home_featured {background:none;}
-div#home_left.column.span-7.first.home-page {width:570px;}
+div#home_featured {}
+div#home_left.column.span-7.first.home-page {width:570px; margin: 0 0 35px 0;}
 div#home_right.column.span-7.last {width:210px; float:right;}
 
-div.column.span-4.first.home-side-bar {background:#ededed;}
+div.column.span-4.first.home-side-bar {background:#ededed;margin: 65px 0 0 0;}
 .widget ul li {background:none; list-style-type:none;}
 
 div.post.type-post.feat_content {border-bottom:1px solid #cdcdcd; margin: 10px 0;}
 
-.span-4 {width:210px;}
+.span-4 {width:190px;}
+.span-11 {width: 760px;margin: 0 auto;float: none;}
+
+.post_meta {font-family: segoeui_0, Arial, Helvetica, sans-serif}
+.post_meta a {color:#AD1E1E; text-decoration: underline;}
+.post_meta a:hover {color:#FFF; text-decoration: underline;}
+
+
+/* Single Page
+-------------------------------------------------------------- */
+h2.post_name {font-size: 22px; color: black; text-shadow: 1px 1px 1px #CDCDCD; margin:0; border-bottom:none;}
+
+div#post_content div.post_meta {border-bottom: solid 5px #CDCDCD;}
 
 /* Legal Services
 -------------------------------------------------------------- */
@@ -200,10 +216,11 @@ div.content-block {
 -------------------------------------------------------------- */
 div.row{height:180px;width:725px;}
 	div.attorney{
-		width:340px; 
+		width:330px; 
 		outline: 1px solid #cdcdcd; 
 		line-height:18px;
-		padding:5px;
+		padding:10px;
+		border: solid 1px #CCC;
 		/*background*/
 		background: #ffffff;
 		background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlYWVhZWEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
@@ -220,8 +237,8 @@ div.row{height:180px;width:725px;}
 		div.attorney.left{float:left;}
 		div.attorney.right{float:right;}
 			div.row a{color:inherit; text-decoration:none;}
-				div.attorney span.name{color: #B61D22;font-size:18px; font-weight:bold; display:block;margin:10px 0; text-decoration:underline;}
-				div.attorney img{background:#CACACA; width:100px; padding:3px; float:left; border:1px solid #777;margin:0 15px 0 0;-webkit-box-shadow: 0px 1px 5px 1px #999; box-shadow: 0px 1px 5px 1px #999;}
+				div.attorney span.name{color: #B61D22; font-family: "Times New Roman", Times, serif; font-size:18px; font-weight:bold; display:block;margin:10px 0; text-decoration:underline;}
+				div.attorney img{background:#CACACA; width:100px; padding:4px; float:left; border:1px solid #999;margin:0 15px 0 0;-webkit-box-shadow: 0px 1px 5px 0px #999; box-shadow: 0px 1px 5px 0px #999;}
 				div.attorney span{line-height:8px; margin:0;}
 				
 /* Attorneys Page-Single
@@ -260,4 +277,4 @@ div.column.span-11.first ul li{margin-left:15px;}
 
 /* Footer
 -------------------------------------------------------------- */
-#footer{padding:40px 0 20px;}
+#footer{padding:20px 15px 0 15px; background: url(http://www.yusenandfriedrich.com/images/bg_green.jpg) no-repeat;width: 850px; height: 150px; margin-left: -15px;}

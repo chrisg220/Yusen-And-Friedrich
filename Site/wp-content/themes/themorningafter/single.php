@@ -15,12 +15,13 @@
             	
 				<?php echo woo_get_embed( 'embed','700','420' ); ?>
             	<div class="post_meta">
-            		<?php _e( 'By','woothemes' );?> <?php the_author_posts_link(); ?> <span class="dot">&sdot;xxx</span> <?php the_time( get_option( 'date_format' ) ); ?> <span class="dot">&sdot;</span> <?php if( function_exists( 'wp_email' ) ) { ?> <?php email_link(); ?> <span class="dot">&sdot;</span> <?php } ?> <?php if( function_exists( 'wp_print' ) ) { ?> <?php print_link(); ?> <span class="dot">&sdot;</span> <?php } ?> <a href="#comments"><?php _e( 'Post a comment','woothemes' ); ?></a>
+            		<?php _e( 'By','woothemes' );?> <?php the_author_posts_link(); ?> <span class="dot">&sdot;</span> <?php the_time( get_option( 'date_format' ) ); ?> <span class="dot">&sdot;</span> <?php if( function_exists( 'wp_email' ) ) { ?> <?php email_link(); ?> <span class="dot">&sdot;</span> <?php } ?> <?php if( function_exists( 'wp_print' ) ) { ?> <?php print_link(); ?> <!-- <span class="dot">&sdot;</span> --> <?php } ?> <!-- <a href="#comments"><?php /* _e( 'Post a comment','woothemes' ); */?></a> -->
             	</div>
-
-				<div class="post_meta">
-            		<?php the_tags( '<span class="filedunder"><strong>' . __( 'Filed Under','woothemes' ) . '</strong></span> &nbsp;', ', ', '' ); ?>
-            	</div>
+				
+                <!-- META TAGS
+				<div class="post_meta"> -->
+            		<?php /*the_tags( '<span class="filedunder"><strong>' . __( 'Filed Under','woothemes' ) . '</strong></span> &nbsp;', ', ', '' ); */?>
+            	<!--</div> -->
             	
 				<div class="post_text">
 
