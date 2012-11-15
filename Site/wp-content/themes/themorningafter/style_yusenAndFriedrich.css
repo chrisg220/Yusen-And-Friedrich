@@ -73,9 +73,10 @@ a.btn{height:25px; width:81px;display:inline-block; vertical-align:middle; margi
 	a.btn.read-more {background:url(../../../images/btn_readMore.png) 0px 0px no-repeat; }
 	a.btn.read-more:hover {background:url(../../../images/btn_readMore.png) 0px -25px no-repeat;}
 
-p, ul {color: #fff; font-family:segoeui_0, Verdana, Geneva, sans-serif; text-shadow: 0px 1px 1px #333333;filter: dropshadow(color=#333333, offx=0, offy=1);}
+p, ul {color: #111; font-family:segoeui_0, Verdana, Geneva, sans-serif; text-shadow: 0px 1px 0px ##cdcdcd;filter: dropshadow(color=##cdcdcd, offx=0, offy=1);}
 p {line-height:18px;}
-p a, div.widget ul, div.widget p {text-shadow: none; filter: none; color: #000;}
+div.widget ul, div.widget p {text-shadow: none; filter: none; color: #000;}
+p a, #footer p {text-shadow: none;}
 span.category {font-size: 14px; line-height: 8px; font-weight: bold;}	
 
 ul li {list-style-type:circle;margin-bottom: 5px;}
@@ -91,7 +92,7 @@ ul li {list-style-type:circle;margin-bottom: 5px;}
 }
 
 /* Header styles
--------------------------------------------------------------- */
+-------------------------------------------------------------- */ 
 div.header-wrapper {display: block; margin: 0 auto; width: 850px;}
 
 #header {margin: -120px auto 0 auto; width: 100%;}
@@ -123,9 +124,13 @@ div.header-wrapper {display: block; margin: 0 auto; width: 850px;}
 	border-top: 1px solid #79131A;
 	border-bottom: 1px solid #AD1E1E;
 	margin:21px 0 0 0; 
+	/*Box Shadow*/
+	-webkit-box-shadow: 0px 1px 7px 0px #333;
+       -moz-box-shadow: 0px 1px 7px 0px #333;
+	        box-shadow: 0px 1px 7px 0px #333;
 }
 #menu li, #main-nav li {padding:0; margin:0; text-transform:uppercase; border-right: 1px solid #79131A;border-left: 1px solid #AD1E1E;}
-#menu li a, #menu li a:hover, #main-nav li a, #main-nav li a:hover{display:block; padding:8px; font-family:"Times New Roman", Times, serif; font-size:12px;}
+#menu li a, #menu li a:hover, #main-nav li a, #main-nav li a:hover{display:block; padding:8px; font-family:"Times New Roman", Times, serif; font-size:11px;}
 #menu li a:hover, #main-nav li a:hover,
 .nav a:hover, .nav li.current_page_item a, .nav li.current_page_parent a, .nav li.current-menu-ancestor a, .nav li.sfHover{
 	color:white; 
@@ -278,3 +283,4 @@ div.column.span-11.first ul li{margin-left:15px;}
 /* Footer
 -------------------------------------------------------------- */
 #footer{padding:20px 15px 0 15px; background: url(http://www.yusenandfriedrich.com/images/bg_green.jpg) no-repeat;width: 850px; height: 150px; margin-left: -15px;}
+#footer p {color: #fff;}
