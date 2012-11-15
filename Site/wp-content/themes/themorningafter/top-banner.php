@@ -72,11 +72,11 @@ $StringNew = '';
 $className = get_body_class($class); 
 if ($className[0] == 'home') {
 	$StringNew = 'Who We Are';
+} elseif ($pagename == 'jeff-h-yusen' || $pagename == 'alexander-a-friedrich' || $pagename == 'john-s-york-jr' || $pagename == 'paul-k-friedrich') {
+	$StringNew = 'Attorneys';
 } else {
 	$StringNew = str_replace('-', ' ', $pagename); 
 }
-
-
 
 ?>
 <h3 class="tab"><?php echo $StringNew ?> </h3>

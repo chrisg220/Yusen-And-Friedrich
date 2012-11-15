@@ -30,7 +30,7 @@ h2 { font-weight: normal; }
 #header { padding: 1.5em 0 0 0; height: 108px;  }
 #header #logo { height: 90px; }
 #header #logo .title { padding: 0.5em 0 0 0; font: 700 3em arial, sans-serif; letter-spacing: -.050em; line-height: 1.2em; color: #000; }
-#header #logo .title .site-title { font-size:1em; font-family: Helvetica,Arial,"Lucida Grande",Verdana,sans-serif;}
+#header #logo .title .site-title { font-size:32px; font-family: Helvetica,Arial,"Lucida Grande",Verdana,sans-serif;}
 #header #logo .title .desc { text-align: right; margin: 0.4em 0 0 0; font: 400 0.25em arial, sans-serif; text-transform: uppercase; color: #CDCDCD;text-shadow: -1px 1px 1px black; filter: dropshadow(color=#333333, offx=-1, offy=1); letter-spacing: 0.2em; padding: 0.6em 0 0 1.5em; border-top: 1px solid #ccc;  }
 #header #logo .title a { text-decoration: none; color: #fff; text-shadow: 0px 1px 1px black; filter: dropshadow(color=#333333, offx=0, offy=1); font-family:"Times New Roman", Times, serif; }
 #header #logo .title a:hover { }
@@ -182,7 +182,7 @@ ul.email li { padding: 0 0 0.2em 20px; margin: 0 0 0.5em 0; border-bottom: 1px s
 
 /** widgets **/
 
-.widget { margin: 0 0 1.4em 0; padding:0 0 5px 0; background: #EFEFEF; -webkit-border-radius: 5px; border-radius: 5px; }
+.widget { margin: 0 0 1.4em 0; padding:0 0 5px 0; background: #cdcdcd; /*-webkit-border-radius: 5px; border-radius: 5px;*/ }
 .widget a { color: #224970; }
 .widget a:hover { color: #000; }
 .widget ul, .widget ol { list-style: none; padding: 0; margin: 0; }
