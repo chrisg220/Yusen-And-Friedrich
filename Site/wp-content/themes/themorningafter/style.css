@@ -31,7 +31,7 @@ h2 { font-weight: normal; }
 #header #logo { height: 90px; }
 #header #logo .title { padding: 0.5em 0 0 0; font: 700 3em arial, sans-serif; letter-spacing: -.050em; line-height: 1.2em; color: #000; }
 #header #logo .title .site-title { font-size:32px; font-family: Helvetica,Arial,"Lucida Grande",Verdana,sans-serif;}
-#header #logo .title .desc { text-align: right; margin: 0.4em 0 0 0; font: 400 0.25em arial, sans-serif; text-transform: uppercase; color: #CDCDCD;text-shadow: -1px 1px 1px black; filter: dropshadow(color=#333333, offx=-1, offy=1); letter-spacing: 0.2em; padding: 0.6em 0 0 1.5em; border-top: 1px solid #ccc;  }
+#header #logo .title .desc { text-align: right; margin: 0.4em 0 0 0; font: 400 0.25em arial, sans-serif; text-transform: uppercase; color: #FFFFFF;/*text-shadow: -1px 1px 1px black; filter: dropshadow(color=#333333, offx=-1, offy=1); */letter-spacing: 0.2em; padding: 0.6em 0 0 1.5em; border-top: 1px solid #ccc;  }
 #header #logo .title a { text-decoration: none; color: #fff; text-shadow: 0px 1px 1px black; filter: dropshadow(color=#333333, offx=0, offy=1); font-family:"Times New Roman", Times, serif; }
 #header #logo .title a:hover { }
 #header #logo a.sitelogo { display: block; width: 400px; height: 90px; background: url(images/bg/sitelogo.png) no-repeat; }
@@ -109,7 +109,7 @@ ul.arrow li a:hover, ul.reccom li a:hover, ul.email li a:hover { color: #000; ba
 
 /* Navigation */
 #navigation {font-size:0.8em; font-weight: 700; text-transform: uppercase; border-bottom: 1px solid #dadada;}
-#navigation ul, #navigation li { list-style: none;}
+#navigation ul, #navigation li { list-style: none; display:inline;}
 
 #navigation ul.rss{background:url(images/ico-rss.png) no-repeat right 5px;padding:7px 15px 3px 0;margin:0px;}
 #navigation ul.rss li{display:inline;padding:0 10px 0 0;}

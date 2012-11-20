@@ -51,7 +51,7 @@ p.incr,.incr p{font-size:0.83333em;line-height:1.44em;margin-bottom:1.8em;}
 
 /* grid.css */
 body{text-align:center;margin:0;}
-.container{text-align:left;position:relative;padding:0;margin:120px auto 0 auto; width:820px;}
+.container{text-align:left;position:relative;padding:0;margin:0 auto 0 auto; width:820px;}
 .column{float:left;margin:0 20px;padding:0;}
 * html .column{overflow-x:hidden;}
 .border{padding-right:9px;margin-right:0;border-right:1px solid #ddd;}

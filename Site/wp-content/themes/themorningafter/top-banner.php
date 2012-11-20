@@ -9,8 +9,33 @@
  global $woo_options;
 ?>
 
+<?php 
+
+$StringNew = '';
+
+$className = get_body_class($class); 
+if ($className[0] == 'home') {
+	$StringNew = 'Who We Are';
+} elseif ($pagename == 'jeff-h-yusen' || $pagename == 'alexander-a-friedrich' || $pagename == 'john-s-york-jr' || $pagename == 'paul-k-friedrich') {
+	$StringNew = 'Attorneys';
+} else {
+	$StringNew = str_replace('-', ' ', $pagename); 
+}
+
+?>
+
 <div class="banner-wrapper">
+	<?php 
+	if ($pagename == 'legal-services') {
+		echo '<div id="topbanner" class="column span-14" style="background-image:url(http://yusenandfriedrich.com/images/banner_construction.jpg)">';
+	} else {
+		echo '<div id="topbanner" class="column span-14" style="background-image:url(http://yusenandfriedrich.com/images/banner_seattle.jpg)">';
+	}
+	
+	?>
+    <!--
     <div id="topbanner" class="column span-14" style="background-image:url(<?php /* header_image(); */?>http://yusenandfriedrich.com/images/banner_seattle.jpg)">
+    -->
         
             <?php
                 $prefix = esc_html( $woo_options['woo_pageheading_prefix'] );

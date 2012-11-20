@@ -31,8 +31,10 @@ h2 {
 	margin: 0 0 20px 0; 
 	color:#B61D22; 
 	border-bottom: solid 2px #FFF; 
+	/*
 	text-shadow: 0px 1px 0px #444;
 	filter: dropshadow(color=#444444, offx=0, offy=1);
+	*/
 }
 h3, h4 {color:#B61D22; font-size:18px; }
 h3{margin-bottom:20px;}
@@ -53,8 +55,10 @@ h3.tab {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ad1e1e', endColorstr='#79131a',GradientType=0 );
 	/*End Background Gradient*/
 	/*Text Shadow*/
+	/*
 	text-shadow: -1px 1px 1px #333333;
     filter: dropshadow(color=#333333, offx=-1, offy=1);
+	*/
 	/*Border Radius*/
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
@@ -68,14 +72,14 @@ h3.tab {
 	        box-shadow: 1px 2px 5px 0px #111; 
 }
 h3.sidebar {margin:10px 0 20px -10px; font-size:12px;}
-.feat_title a.post-title {font-family:"Times New Roman", Times, serif; font-size:18px; color:#000; text-shadow: 1px 1px 1px #cdcdcd; text-decoration:none;}
+.feat_title a.post-title {font-family:"Times New Roman", Times, serif; font-size:18px; color:#000; /*text-shadow: 1px 1px 1px #cdcdcd;*/ text-decoration:none;}
 .feat_title a.post-title:hover{color:#AD1E1E;}
 
 a.btn{height:25px; width:81px;display:inline-block; vertical-align:middle; margin-left:10px}
 	a.btn.read-more {background:url(../../../images/btn_readMore.png) 0px 0px no-repeat; }
 	a.btn.read-more:hover {background:url(../../../images/btn_readMore.png) 0px -25px no-repeat;}
 
-p, ul, div.attorneys-contact {color: #111; font-family:segoeui_0, Verdana, Geneva, Arial, Times New Roman, sans-serif; text-shadow: 0px 1px 0px #cdcdcd;filter: dropshadow(color=#cdcdcd, offx=0, offy=1);}
+p, ul, div.attorneys-contact {color: #111; font-family:/*segoeui_0, */ Arial,Verdana, Geneva, Times New Roman, sans-serif; /*text-shadow: 0px 1px 0px #cdcdcd;filter: dropshadow(color=#cdcdcd, offx=0, offy=1);*/ behavior: url(http://www.yusenandfriedrich.com/assets/PIE.htc);}
 p {line-height:18px;}
 div.widget ul, div.widget p {text-shadow: none; filter: none; color: #000;}
 p a, #footer p {text-shadow: none;}
@@ -85,19 +89,20 @@ ul li {list-style-type:circle;margin-bottom: 5px;}
 
 /* Wrapper
 -------------------------------------------------------------- */
-.container{padding:0 15px; background-color: rgba(255,255,255,0.6)}
+.container{padding:0 15px; background-color: #cdcdcd; background-color: rgba(255,255,255,0.6); behavior: url(http://www.yusenandfriedrich.com/assets/PIE.htc);}
 .shadow {
 	/*Box Shadow*/
 	-webkit-box-shadow: 0px 0px 20px 0px #000000;
 	   -moz-box-shadow: 0px 0px 20px 0px #000000;
 	        box-shadow: 0px 0px 20px 0px #000000;
+			behavior: url(http://www.yusenandfriedrich.com/assets/PIE.htc);
 }
 
 /* Header styles
 -------------------------------------------------------------- */ 
-div.header-wrapper {display: block; margin: 0 auto; width: 850px;}
+div.header-wrapper {display: block; margin: 0 auto; height: 120px; width: 850px; }
 
-#header {margin: -120px auto 0 auto; width: 100%;}
+#header {margin: 0 auto 0 auto; width: 100%;}
 #header #logo .title .desc {margin:-2px 0 0 0;}
 	
 /* Search and navigation
@@ -131,7 +136,7 @@ div.header-wrapper {display: block; margin: 0 auto; width: 850px;}
        -moz-box-shadow: 0px 1px 7px 0px #333;
 	        box-shadow: 0px 1px 7px 0px #333;
 }
-#menu li, #main-nav li {padding:0; margin:0; text-transform:uppercase; border-right: 1px solid #79131A;border-left: 1px solid #AD1E1E;}
+#menu li, #main-nav li {padding:0; margin:0; text-transform:uppercase; border-right: 1px solid #79131A;border-left: 1px solid #AD1E1E; display:inline;}
 #menu li a, #menu li a:hover, #main-nav li a, #main-nav li a:hover{display:block; padding:8px; font-family:"Times New Roman", Times, serif; font-size:11px;}
 #menu li a:hover, #main-nav li a:hover,
 .nav a:hover, .nav li.current_page_item a, .nav li.current_page_parent a, .nav li.current-menu-ancestor a, .nav li.sfHover{
